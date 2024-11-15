@@ -1,6 +1,4 @@
-mod run;
-
-
+mod lib;
 fn main() {
-    pollster::block_on(run::run());
+    pollster::block_on(lib::run());
 }
